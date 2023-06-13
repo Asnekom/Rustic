@@ -266,11 +266,11 @@ a {
     cursor: pointer;
 }
 .receipt {
-    width: 150%;
-    height: 110vh;
+    width: 100%;
+    height: 100vh;
     position: fixed;
     z-index: 999;
-    top: 35px;
+    top: 0;
     background: rgba(0, 0, 0, 0.274);
     display: none;
     opacity: 0;
@@ -292,6 +292,7 @@ a {
 }
 .receipt__window-out {
     flex-grow: 1;
+    margin-top: 35px;
     align-self: stretch;
     padding: 15px;
     white-space: pre-wrap;
