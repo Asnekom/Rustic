@@ -292,7 +292,6 @@ a {
 }
 .receipt__window-out {
     flex-grow: 1;
-    margin-top: 35px;
     align-self: stretch;
     padding: 15px;
     white-space: pre-wrap;
