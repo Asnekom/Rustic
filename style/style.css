@@ -270,7 +270,7 @@ a {
     height: 100vh;
     position: fixed;
     z-index: 999;
-    top: 30px;
+    top: 35px;
     background: rgba(0, 0, 0, 0.274);
     display: none;
     opacity: 0;
