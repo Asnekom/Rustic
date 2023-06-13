@@ -266,7 +266,7 @@ a {
     cursor: pointer;
 }
 .receipt {
-    width: 100%;
+    width: 101%;
     height: 100vh;
     position: fixed;
     z-index: 999;
