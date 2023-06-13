@@ -96,7 +96,7 @@ function createBurgers(){
             <div class="main__product-info">
                 <img src="${img}" alt="" class="main__product-img">
                 <h2 class="main__product-title">${name}
-                    <span class="main__product-many">${price} сум</span>
+                    <span class="main__product-many">${price} руб.</span>
                 </h2>
             </div>
             <p class="main__product-descr">
@@ -109,7 +109,7 @@ function createBurgers(){
                 <output class="main__product-num">0</output>
                 <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
             </div>
-            <div class="main__product-price"><span>0</span> сум</div>
+            <div class="main__product-price"><span>0</span> руб.</div>
         </div>
         <div class="main__product-extraProduct">`
         for(let newKey in extraProduct) {
@@ -228,7 +228,7 @@ addCart.addEventListener('click', function() {
         totalPrice += el.price
         totalKcall += el.kcall
     }
-    receiptOut.innerHTML = `Вы заказали \n ${totalName} \nКаллорийость ${totalKcall} /n общая стоимость заказа ${totalPrice} сумм`
+    receiptOut.innerHTML = `Вы заказали \n ${totalName} \nКаллорийость ${totalKcall} общая стоимость заказа ${totalPrice} руб.`
 
     receipt.style.display = 'flex';
     receipt.style.opacity = '1';
