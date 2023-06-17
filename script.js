@@ -46,7 +46,7 @@ let product = {
   freshCom: {
     name: 'FRESH STEAK',
     price: 131900,
-    kcall: 1500,
+    kcall: 11500,
     descr: ' FRESH и Картошка фри и Стейк домашний. Тот же самый FRESH и Фри да ещё и Стейк.',
     img: 'https://avatars.mds.yandex.net/i?id=5c043529cb291c55f648a9b4936e7261799562fc-8375627-images-thumbs&n=13',
     amount: 0,
@@ -62,7 +62,7 @@ combomac: {
     price: 50000,
     kcall: 2500,
     descr: ' FRESH и Картошка фри и Coca-Cola. Это три в одном.',
-    img: 'https://avatars.mds.yandex.net/i?id=5c043529cb291c55f648a9b4936e7261799562fc-8375627-images-thumbs&n=13',
+    img: 'https://s1.1zoom.ru/b5050/171/French_fries_Hamburger_Fast_food_Coca-Cola_572340_3840x2400.jpg',
     amount: 0,
     get Summ() {
       return this.price * this.amount;
