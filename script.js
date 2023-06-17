@@ -115,7 +115,6 @@ function createBurgers(){
                 <output class="main__product-num">0</output>
                 <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
             </div>
-           
         </div>
         <div class="main__product-extraProduct">`
         for(let newKey in extraProduct) {
@@ -126,9 +125,9 @@ function createBurgers(){
             ${extraProduct[newKey].name}
             </label>`
         }
-        str += `</div>
-        <div class="main__product-kcall"><span>0</span> калорий</div>
-        </section> `
+        // str += `</div>
+        // <div class="main__product-kcall"><span>0</span> калорий</div>
+        // </section> `
     }
     main.innerHTML = str;
     market();
