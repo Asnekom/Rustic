@@ -58,7 +58,7 @@ let product = {
     }
 },
 combomac: {
-    name: 'COMBO MAС',
+    name: 'Coco Bongo',
     price: 50000,
     kcall: 2500,
     descr: ' FRESH и Картошка фри и Coca-Cola. Это три в одном.',
