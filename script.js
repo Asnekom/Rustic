@@ -63,7 +63,7 @@ freshCombo: {
     kcall: 2500,
     descr: ' FRESH и Картошка фри и Coca-Cola. Это три в одном.',
     img: 'https://s1.1zoom.ru/b5050/171/French_fries_Hamburger_Fast_food_Coca-Cola_572340_3840x2400.jpg',
-    
+    amount: 0,
     get Summ() {
       return this.price * this.amount;
     },
