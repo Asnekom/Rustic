@@ -56,7 +56,20 @@ let product = {
     get Kcall() {
         return this.kcall * this.amount;
     }
-}
+},
+freshCombo: {
+    name: 'COMBO MAС',
+    price: 50000,
+    kcall: 2500,
+    descr: ' FRESH и Картошка фри и Coca-Cola. Это три в одном.',
+    img: 'https://s1.1zoom.ru/b5050/171/French_fries_Hamburger_Fast_food_Coca-Cola_572340_3840x2400.jpg',
+    
+    get Summ() {
+      return this.price * this.amount;
+    },
+    get Kcall() {
+        return this.kcall * this.amount;
+    }
 };
 
 
