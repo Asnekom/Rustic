@@ -2,9 +2,9 @@
 
 let product = {
   plainBurger: {
-    name: "Гамбургер простой",
-    price: 10000,
-    kcall: 500,
+    name: "Гамбургер классический",
+    price: 150,
+    kcall: 700,
     img: 'images/product2.jpg',
     amount: 0,
     get Summ() {
@@ -16,8 +16,8 @@ let product = {
   },
   freshBurger: {
       name: 'Гамбургер FRESH',
-      price: 20500,
-      kcall: 1000,
+      price: 250,
+      kcall: 900,
       img: 'images/product1.jpg',
       amount: 0,
       get Summ() {
@@ -29,7 +29,7 @@ let product = {
   },
   freshCombo: {
       name: 'FRESH COMBO',
-      price: 31900,
+      price: 600,
       kcall: 1500,
       img: 'images/product3.jpg',
       amount: 0,
@@ -42,7 +42,7 @@ let product = {
   },
   freshCom: {
     name: 'FRESH STEAK',
-    price: 131900,
+    price: 700,
     kcall: 11500,
     img: 'https://avatars.mds.yandex.net/i?id=5c043529cb291c55f648a9b4936e7261799562fc-8375627-images-thumbs&n=13',
     amount: 0,
@@ -55,7 +55,7 @@ let product = {
 },
 combomac: {
     name: 'Coco Bongo',
-    price: 50000,
+    price: 850,
     kcall: 2500,
     img: 'https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663796853_1-mykaleidoscope-ru-p-burger-i-kola-yeda-krasivo-1.jpg',
     amount: 0,
