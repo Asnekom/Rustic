@@ -5,7 +5,6 @@ let product = {
     name: "Гамбургер простой",
     price: 10000,
     kcall: 500,
-    descr: 'Встречайте простой ГАМБУРГЕР. Он не сочный и не сытный за то дешевый',
     img: 'images/product2.jpg',
     amount: 0,
     get Summ() {
@@ -19,7 +18,6 @@ let product = {
       name: 'Гамбургер FRESH',
       price: 20500,
       kcall: 1000,
-      descr: 'Встречайте Фрешмена FAS FOOD`а. Он набрал в себя всё самое старое.',
       img: 'images/product1.jpg',
       amount: 0,
       get Summ() {
@@ -33,7 +31,6 @@ let product = {
       name: 'FRESH COMBO',
       price: 31900,
       kcall: 1500,
-      descr: ' FRESH и Картошка фри. Тот же самый FRESH и Фри объяденились.',
       img: 'images/product3.jpg',
       amount: 0,
       get Summ() {
@@ -47,7 +44,6 @@ let product = {
     name: 'FRESH STEAK',
     price: 131900,
     kcall: 11500,
-    descr: ' FRESH и Картошка фри и Стейк домашний. Тот же самый FRESH и Фри да ещё и Стейк.',
     img: 'https://avatars.mds.yandex.net/i?id=5c043529cb291c55f648a9b4936e7261799562fc-8375627-images-thumbs&n=13',
     amount: 0,
     get Summ() {
@@ -61,7 +57,6 @@ combomac: {
     name: 'Coco Bongo',
     price: 50000,
     kcall: 2500,
-    descr: ' FRESH и Картошка фри и Coca-Cola. Это три легенды в месте.',
     img: 'https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663796853_1-mykaleidoscope-ru-p-burger-i-kola-yeda-krasivo-1.jpg',
     amount: 0,
     get Summ() {
