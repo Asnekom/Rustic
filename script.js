@@ -245,6 +245,10 @@ addCart.addEventListener('click', function() {
     }    
 })    
 
+function Refresh() {
+    window.parent.location = window.parent.location.href;
+}
+
 receiptBtn.addEventListener(' click', function() {
     location.reload();
 })
