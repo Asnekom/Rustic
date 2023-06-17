@@ -57,7 +57,7 @@ let product = {
         return this.kcall * this.amount;
     }
 },
-freshCombo: {
+combomac: {
     name: 'COMBO MAС',
     price: 50000,
     kcall: 2500,
@@ -70,6 +70,7 @@ freshCombo: {
     get Kcall() {
         return this.kcall * this.amount;
     }
+},
 };
 
 
