@@ -126,7 +126,6 @@ function createBurgers(){
             </label>`
         }
          str += `</div>
-         <div class="main__product-kcall"><span></span></div>
          </section> `
     }
     main.innerHTML = str;
