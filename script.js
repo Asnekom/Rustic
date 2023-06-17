@@ -115,7 +115,7 @@ function createBurgers(){
                 <output class="main__product-num">0</output>
                 <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
             </div>
-            <div class="main__product-price"><span>0</span> руб.</div>
+           
         </div>
         <div class="main__product-extraProduct">`
         for(let newKey in extraProduct) {
