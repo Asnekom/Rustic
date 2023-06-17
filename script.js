@@ -61,7 +61,7 @@ combomac: {
     name: 'Coco Bongo',
     price: 50000,
     kcall: 2500,
-    descr: ' FRESH и Картошка фри и Coca-Cola. Это три в одном.',
+    descr: ' FRESH и Картошка фри и Coca-Cola. Это три легенды вместе.',
     img: 'https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663796853_1-mykaleidoscope-ru-p-burger-i-kola-yeda-krasivo-1.jpg',
     amount: 0,
     get Summ() {
