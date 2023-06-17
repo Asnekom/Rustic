@@ -125,9 +125,9 @@ function createBurgers(){
             ${extraProduct[newKey].name}
             </label>`
         }
-        // str += `</div>
-        // <div class="main__product-kcall"><span>0</span> калорий</div>
-        // </section> `
+         str += `</div>
+         <div class="main__product-kcall"><span>0</span> калорий</div>
+         </section> `
     }
     main.innerHTML = str;
     market();
