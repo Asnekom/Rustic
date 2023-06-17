@@ -108,9 +108,6 @@ function createBurgers(){
                     <span class="main__product-many">${price} руб.</span>
                 </h2>
             </div>
-            <p class="main__product-descr">
-               ${descr}
-            </p>
         </div>
         <div class="main__product-extra">
             <div class="main__product-number">
