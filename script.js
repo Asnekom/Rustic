@@ -234,7 +234,8 @@ addCart.addEventListener('click', function() {
         totalPrice += el.price
         totalKcall += el.kcall
     }
-    receiptOut.innerHTML = `Вы заказали \n ${totalName} \nКаллорийость ${totalKcall} общая стоимость заказа ${totalPrice} руб.`
+    receiptOut.innerHTML = `Заказ: \n ${totalName} \nКаллорийость ${totalKcall} 
+    общая стоимость заказа ${totalPrice} руб.`
 
     receipt.style.display = 'flex';
     receipt.style.opacity = '1';
